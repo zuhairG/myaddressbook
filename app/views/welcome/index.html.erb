@@ -1,0 +1,10 @@
+<h2>Welcome to My Addressbook</h2>
+
+<h5>  Where you can safly create and save your contacts</h5>
+<%unless current_user%>
+<p> please
+<%= link_to 'SignIn', new_user_session_path %> or
+<%= link_to 'SignUp', new_user_registration_path %>
+to get started </p>
+<%end%>
+<%= image_tag 'https://cdn1.iconfinder.com/data/icons/book_mac/512/Address_Book.png' %>
