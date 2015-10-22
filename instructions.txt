@@ -1,0 +1,13 @@
+In order to get this application to run on a mac you need to do the following:
+
+1. Download a local copy of the app
+  Option 1 :Visit https://github.com/zuhairG/myaddressbook and click the "clone in desktop" button located on the right had side
+  Option 2 :Open terminal and run the following command git clone https://github.com/zuhairG/myaddressbook.git
+
+2. Change directory to the application folder (cd myaddressbook)
+3. Run the following commands in your Terminal
+    bundle install
+    rake db:migrate
+
+4. Run the Rails server (rails s) in your Terminal
+5. Open your web browser and visit http://localhost:3000/
